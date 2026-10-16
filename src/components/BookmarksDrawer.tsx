@@ -89,8 +89,9 @@ export const BookmarksDrawer: React.FC<BookmarksDrawerProps> = ({
                         onClose();
                       }}
                       className="text-xs text-[#A35360] hover:underline flex items-center gap-1 font-medium cursor-pointer"
+                      aria-label={`Open masterclass: ${article.title}`}
                     >
-                      <span>Read</span>
+                      <span>Open masterclass</span>
                       <ArrowRight className="w-3 h-3" />
                     </button>
                     <button

@@ -95,7 +95,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
           </div>
 
           <span className="inline-flex items-center gap-1 font-medium text-[#A35360] group-hover:translate-x-0.5 transition-transform">
-            <span>Read guide</span>
+            <span>Explore {article.title.split(':')[0]}</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </span>
         </div>

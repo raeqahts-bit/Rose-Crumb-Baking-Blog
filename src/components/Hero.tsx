@@ -97,8 +97,9 @@ export const Hero: React.FC<HeroProps> = ({
               <button
                 onClick={onSelectFeatured}
                 className="inline-flex items-center gap-2 px-6 py-3 bg-[#A35360] hover:bg-[#8B424E] text-white text-xs font-semibold rounded-full shadow-xs hover:shadow-sm transition-all cursor-pointer group"
+                aria-label="Read the Cake Failures and Chemistry Masterclass"
               >
-                <span>Read Full Masterclass</span>
+                <span>Read the Cake Failures Masterclass</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </button>
             </div>

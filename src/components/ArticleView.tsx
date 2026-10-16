@@ -764,8 +764,8 @@ export const ArticleView: React.FC<ArticleViewProps> = ({
                         {rel.title}
                       </h3>
                     </div>
-                    <span className="text-xs font-medium text-[#A35360] flex items-center gap-1">
-                      <span>Explore</span>
+                    <span className="text-xs font-medium text-[#A35360] flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
+                      <span>Read guide on {rel.title.split(':')[0]}</span>
                       <span aria-hidden="true">→</span>
                     </span>
                   </div>
