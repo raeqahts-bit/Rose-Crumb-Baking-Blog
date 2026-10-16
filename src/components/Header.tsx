@@ -115,8 +115,8 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               onClick={onOpenConverter}
               className="p-2 text-[#655255] hover:text-[#A35360] hover:bg-[#F8ECEB] rounded-full transition-colors cursor-pointer hidden sm:flex items-center justify-center"
-              title="Baker's Weight & Ratio Converter"
-              aria-label="Open Baker Converter"
+              title="Open Baker's Precision Weight and Ratio Converter"
+              aria-label="Open Baker's Precision Weight and Ratio Converter on /converter"
             >
               <Scale className="w-5 h-5" />
             </button>
@@ -125,8 +125,8 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               onClick={onOpenBookmarks}
               className="relative p-2 text-[#655255] hover:text-[#A35360] hover:bg-[#F8ECEB] rounded-full transition-colors cursor-pointer"
-              title="View saved articles"
-              aria-label={`Saved articles (${savedCount})`}
+              title="View your saved masterclasses library"
+              aria-label={`View your saved masterclasses library on /saved-recipes (${savedCount} saved)`}
             >
               <Bookmark className="w-5 h-5" />
               {savedCount > 0 && (

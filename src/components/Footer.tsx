@@ -144,9 +144,40 @@ export const Footer: React.FC<FooterProps> = ({ onSelectCategory, onNavigateArti
                 <button
                   onClick={() => onSelectCategory('Decorating & Science')}
                   className="hover:text-[#A35360] transition-colors cursor-pointer text-left"
+                  aria-label="Browse Botanical Colorings and Macaron guides"
                 >
                   Botanical Colorings &amp; Macarons
                 </button>
+              </li>
+              <li className="pt-2 border-t border-[#E8DAD7]">
+                <a
+                  href="/converter"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.history.pushState(null, '', '/converter');
+                    window.dispatchEvent(new PopStateEvent('popstate'));
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                  className="hover:text-[#A35360] transition-colors cursor-pointer text-left font-medium block"
+                  aria-label="Open Baker's Precision Weight and Measurement Converter"
+                >
+                  Baker's Weight &amp; Ratio Converter
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/saved-recipes"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.history.pushState(null, '', '/saved-recipes');
+                    window.dispatchEvent(new PopStateEvent('popstate'));
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                  className="hover:text-[#A35360] transition-colors cursor-pointer text-left font-medium block"
+                  aria-label="View your personal saved recipes archive"
+                >
+                  Personal Recipe Archive
+                </a>
               </li>
             </ul>
           </div>

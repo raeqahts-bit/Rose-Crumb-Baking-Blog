@@ -33,6 +33,9 @@ export interface ArticleSection {
     title: string;
     text: string;
   };
+  image?: string;
+  imageAlt?: string;
+  imageCaption?: string;
 }
 
 export interface Article {

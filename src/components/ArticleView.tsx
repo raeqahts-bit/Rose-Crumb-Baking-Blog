@@ -442,6 +442,23 @@ export const ArticleView: React.FC<ArticleViewProps> = ({
                   ))}
                 </div>
 
+                {/* Optional Mid-Section Step-by-Step Image */}
+                {section.image && (
+                  <div className="rounded-2xl overflow-hidden border border-[#F0E4E2] bg-white shadow-xs my-6">
+                    <img
+                      src={section.image}
+                      alt={section.imageAlt || article.coverImageAlt}
+                      className="w-full aspect-[16/9] object-cover"
+                      loading="lazy"
+                    />
+                    {section.imageCaption && (
+                      <p className="p-3 text-xs text-[#9C797E] bg-[#FAF4F2] italic font-serif text-center border-t border-[#F0E4E2]">
+                        {section.imageCaption}
+                      </p>
+                    )}
+                  </div>
+                )}
+
                 {/* Callout Box if present */}
                 {section.callout && (
                   <div
