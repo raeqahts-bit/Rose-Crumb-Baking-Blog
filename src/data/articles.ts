@@ -1,4 +1,5 @@
 import { Article } from '../types/blog';
+import { BAKING_IMAGES } from '../assets/images';
 
 export const ARTICLES: Article[] = [
   {
@@ -8,7 +9,7 @@ export const ARTICLES: Article[] = [
     subtitle: 'From sunken centers to dense rubbery crumbs, decode the chemical mechanics of baking powder, gluten development, and oven convection.',
     category: 'Cake Chemistry',
     excerpt: 'Sunken centers, tunneling, domed cracked tops, and gummy bottoms are not bad luck—they are thermodynamic and chemical signals. Here is how protein coagulation and leavening pressure interact.',
-    coverImage: '/src/assets/images/cake_failures_crumb_1791948994059.jpg',
+    coverImage: BAKING_IMAGES.cakeFailures,
     coverImageAlt: 'Delicate cake crumb texture comparison on fine porcelain with soft blush pink napkin',
     fallbackGradient: 'from-[#FDF2F4] to-[#FCE7EB]',
     author: {
@@ -159,7 +160,7 @@ Most consumer oven dials are inaccurate by 20°F to 50°F. When batter enters an
     subtitle: 'Tested ratios for eggs, buttermilk, cake flour, brown sugar, and leaveners that preserve tender crumb and structural integrity.',
     category: 'Ingredients & Prep',
     excerpt: 'Ran out of eggs mid-recipe or missing buttermilk? Discover the exact food science behind substitute chemistry so your crumb, rise, and taste stay exceptional.',
-    coverImage: '/src/assets/images/hero_baking_atelier_1791948992592.jpg',
+    coverImage: BAKING_IMAGES.hero,
     coverImageAlt: 'Pantry ingredients, flour dust, and fresh eggs ready for precise baking measurement',
     fallbackGradient: 'from-[#FDF4EE] to-[#FCE7DE]',
     author: {
@@ -279,7 +280,7 @@ Brown sugar is simply white refined sucrose coated in dark molasses. For every 2
     subtitle: 'Why 65°F is the true secret to fluffy cakes, how chilled butter creates flaky pastry steam pockets, and the science of brown butter.',
     category: 'Ingredients & Prep',
     excerpt: 'Recipes say "room temperature," but your kitchen is 74°F—and your butter just melted into soup. Learn how fat crystallization state dictates rise, spread, and crumb.',
-    coverImage: '/src/assets/images/flaky_pie_crust_butter_1791948995501.jpg',
+    coverImage: BAKING_IMAGES.pieCrust,
     coverImageAlt: 'Artisanal butter curls on marble slab with French wooden rolling pin and floral pastel linen',
     fallbackGradient: 'from-[#FFF8F0] to-[#FCEEE2]',
     author: {
@@ -398,7 +399,7 @@ Melted butter coats flour starches instantly, inhibiting gluten formation and tr
     subtitle: 'Harness wild yeasts and lactobacilli to cultivate a resilient, bubbly starter with perfect acidity and explosive oven spring.',
     category: 'Sourdough & Bread',
     excerpt: 'Demystifying the wild fermentation lifecycle. From day 1 flour hydration to the triumphant float test on day 7, master microbial feeding rhythms.',
-    coverImage: '/src/assets/images/sourdough_starter_jar_1791948994570.jpg',
+    coverImage: BAKING_IMAGES.sourdough,
     coverImageAlt: 'Clear glass jar filled with active bubbly sourdough starter with wooden spoon and flour dust',
     fallbackGradient: 'from-[#FAF2EB] to-[#F5E5D5]',
     author: {
@@ -543,7 +544,7 @@ Never throw away your discard! Unfed sourdough discard contains developed lactic
     subtitle: 'Cut through kitchen gadget clutter: the high-impact equipment professional pastry chefs swear by versus the gimmicks gathering dust.',
     category: 'Baking Equipment',
     excerpt: 'Before buying that single-purpose cupcake corer or silicon pie crust shield, discover the indispensable tools that actually improve your bake quality.',
-    coverImage: '/src/assets/images/hero_baking_atelier_1791948992592.jpg',
+    coverImage: BAKING_IMAGES.hero,
     coverImageAlt: 'Curated artisanal baking tools on marble workbench including French rolling pin and copper whisk',
     fallbackGradient: 'from-[#FAF4F7] to-[#F5E6ED]',
     author: {
@@ -671,7 +672,7 @@ Baking is governed by physics and thermodynamics. An extra $20 spent on a heavy-
     subtitle: 'Master the physics of butter lamination, water inhibition, and vodka tenderizing for crusts that shatter like autumn leaves.',
     category: 'Pastry & Pies',
     excerpt: 'Tired of tough, cardboard pie crusts? Learn how pea-sized butter chunks create steam pockets, why apple cider vinegar relaxes gluten, and blind-baking secrets.',
-    coverImage: '/src/assets/images/flaky_pie_crust_butter_1791948995501.jpg',
+    coverImage: BAKING_IMAGES.pieCrust,
     coverImageAlt: 'Golden artisanal lattice pie crust with flaky butter layers and marble rolling pin',
     fallbackGradient: 'from-[#FAF1E8] to-[#F5DFCD]',
     author: {
@@ -797,7 +798,7 @@ To guarantee crispness:
     subtitle: 'From Denver to Mexico City: adjusting leaveners, evaporation rates, and sugar crystallization above 3,000 feet.',
     category: 'Decorating & Science',
     excerpt: 'At high altitudes, low atmospheric pressure causes gas bubbles to expand aggressively while liquids boil at lower temperatures. Learn the exact adjustment formula.',
-    coverImage: '/src/assets/images/cake_failures_crumb_1791948994059.jpg',
+    coverImage: BAKING_IMAGES.cakeFailures,
     coverImageAlt: 'Delicate cake crumb and recipe notebooks illustrating scientific adjustments',
     fallbackGradient: 'from-[#F3F4F6] to-[#E5E7EB]',
     author: {
@@ -902,7 +903,7 @@ Two relentless physical forces govern high-altitude baking:
     subtitle: 'Demystifying the elusive macaronage: achieving ruffled feet, silky shiny shells, and zero hollow interiors.',
     category: 'Decorating & Science',
     excerpt: 'Macarons are notorious for finicky behavior. Compare the accessible French meringue technique against the ultra-stable Italian hot sugar syrup method.',
-    coverImage: '/src/assets/images/french_macarons_stand_1791948994763.jpg',
+    coverImage: BAKING_IMAGES.macarons,
     coverImageAlt: 'Pastel blush pink and ivory French macarons stacked on porcelain pedestal stand',
     fallbackGradient: 'from-[#FDF2F4] to-[#FCE6EB]',
     author: {
@@ -1026,7 +1027,7 @@ A hot sugar syrup cooked to the soft-ball stage (244°F / 118°C) is drizzled in
     subtitle: 'From cookie dough pucks to unbaked puff pastry and pre-proofed brioche: make-ahead strategies for busy bakers.',
     category: 'Pastry & Pies',
     excerpt: 'You do not need to wake up at 4:00 AM to enjoy warm croissants or fresh cookies. Discover the chilling and freezing science that preserves yeast viability.',
-    coverImage: '/src/assets/images/hero_baking_atelier_1791948992592.jpg',
+    coverImage: BAKING_IMAGES.hero,
     coverImageAlt: 'Freshly baked pastries and prepared dough on marble worktop with linen napkins',
     fallbackGradient: 'from-[#FAF2F2] to-[#F5E1E1]',
     author: {
@@ -1135,7 +1136,7 @@ Freezing water inside dough slows enzymatic action and suspends chemical activit
     subtitle: 'From freeze-dried botanical powders to real Madagascar vanilla caviar: elevate aesthetics without artificial additives.',
     category: 'Decorating & Science',
     excerpt: 'Ditch synthetic Red #40 and artificial vanillin. Discover how freeze-dried pitaya, butterfly pea flower, beetroot, and cold-pressed citrus oils create ethereal pastels.',
-    coverImage: '/src/assets/images/french_macarons_stand_1791948994763.jpg',
+    coverImage: BAKING_IMAGES.macarons,
     coverImageAlt: 'Delicate pastel tinted macarons and natural botanical baking extracts',
     fallbackGradient: 'from-[#FAF4F8] to-[#F4E3EF]',
     author: {

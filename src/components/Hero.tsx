@@ -1,6 +1,7 @@
 import React from 'react';
 import { Sparkles, ArrowRight, BookOpen, Clock, ChevronRight } from 'lucide-react';
 import { CATEGORIES } from '../data/articles';
+import { BAKING_IMAGES } from '../assets/images';
 
 interface HeroProps {
   activeCategory: string;
@@ -41,7 +42,7 @@ export const Hero: React.FC<HeroProps> = ({
           {/* Visual Showcase (Photo) */}
           <div className="lg:col-span-7 relative min-h-[300px] sm:min-h-[400px] overflow-hidden bg-[#FDF2F4] group">
             <img
-              src="/src/assets/images/hero_baking_atelier_1791948992592.jpg"
+              src={BAKING_IMAGES.hero}
               alt="Artisanal French baking table with freshly baked tarts, croissants, and delicate flour dusting"
               className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-700 ease-out"
               referrerPolicy="no-referrer"

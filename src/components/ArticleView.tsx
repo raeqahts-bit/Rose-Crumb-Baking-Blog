@@ -121,7 +121,7 @@ export const ArticleView: React.FC<ArticleViewProps> = ({
             name: 'Rose & Crumb',
             logo: {
               '@type': 'ImageObject',
-              url: `${window.location.origin}/src/assets/images/hero_baking_atelier_1791948992592.jpg`,
+              url: typeof article.coverImage === 'string' && article.coverImage.startsWith('http') ? article.coverImage : `${window.location.origin}${article.coverImage}`,
             },
           },
           mainEntityOfPage: {
