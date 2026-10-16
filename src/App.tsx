@@ -135,7 +135,7 @@ export default function App() {
       if (metaDesc) {
         metaDesc.setAttribute(
           'content',
-          'Discover the art and precise science of baking with in-depth masterclasses, foolproof cake chemistry, sourdough fermentation guides, flaky pie crusts, and curated tools.'
+          'Master the science and art of baking with foolproof pastry guides, cake chemistry fixes, and sourdough tips. Explore expert masterclasses to elevate your bakes.'
         );
       }
     }

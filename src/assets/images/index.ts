@@ -1,8 +1,8 @@
-import heroBakingAtelier from './hero_baking_atelier_1791948992592.jpg';
-import cakeFailuresCrumb from './cake_failures_crumb_1791948994059.jpg';
-import frenchMacaronsStand from './french_macarons_stand_1791948994763.jpg';
-import flakyPieCrustButter from './flaky_pie_crust_butter_1791948995501.jpg';
-import sourdoughStarterJar from './sourdough_starter_jar_1791948994570.jpg';
+import heroBakingAtelier from './artisanal-baking-atelier-pastries-camille-laurent.jpg';
+import cakeFailuresCrumb from './cake-crumb-failures-camille-laurent.jpg';
+import frenchMacaronsStand from './french-macarons-patisserie-camille-laurent.jpg';
+import flakyPieCrustButter from './artisanal-flaky-pie-crust-elena-vance.jpg';
+import sourdoughStarterJar from './active-sourdough-starter-jar-julian-hayes.jpg';
 
 export const BAKING_IMAGES = {
   hero: heroBakingAtelier,

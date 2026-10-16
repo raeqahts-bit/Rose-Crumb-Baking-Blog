@@ -10,7 +10,7 @@ export const ARTICLES: Article[] = [
     category: 'Cake Chemistry',
     excerpt: 'Sunken centers, tunneling, domed cracked tops, and gummy bottoms are not bad luck—they are thermodynamic and chemical signals. Here is how protein coagulation and leavening pressure interact.',
     coverImage: BAKING_IMAGES.cakeFailures,
-    coverImageAlt: 'Delicate cake crumb texture comparison on fine porcelain with soft blush pink napkin',
+    coverImageAlt: 'Delicate cake crumb texture comparison on fine porcelain with soft blush pink napkin by Camille Laurent · Rose & Crumb',
     fallbackGradient: 'from-[#FDF2F4] to-[#FCE7EB]',
     author: {
       name: 'Camille Laurent',
@@ -161,7 +161,7 @@ Most consumer oven dials are inaccurate by 20°F to 50°F. When batter enters an
     category: 'Ingredients & Prep',
     excerpt: 'Ran out of eggs mid-recipe or missing buttermilk? Discover the exact food science behind substitute chemistry so your crumb, rise, and taste stay exceptional.',
     coverImage: BAKING_IMAGES.hero,
-    coverImageAlt: 'Pantry ingredients, flour dust, and fresh eggs ready for precise baking measurement',
+    coverImageAlt: 'Pantry ingredients, flour dust, and fresh eggs ready for precise baking measurement by Camille Laurent · Rose & Crumb',
     fallbackGradient: 'from-[#FDF4EE] to-[#FCE7DE]',
     author: {
       name: 'Elena Vance',
@@ -281,7 +281,7 @@ Brown sugar is simply white refined sucrose coated in dark molasses. For every 2
     category: 'Ingredients & Prep',
     excerpt: 'Recipes say "room temperature," but your kitchen is 74°F—and your butter just melted into soup. Learn how fat crystallization state dictates rise, spread, and crumb.',
     coverImage: BAKING_IMAGES.pieCrust,
-    coverImageAlt: 'Artisanal butter curls on marble slab with French wooden rolling pin and floral pastel linen',
+    coverImageAlt: 'Artisanal butter curls on marble slab with French wooden rolling pin and floral pastel linen by Elena Vance · Rose & Crumb',
     fallbackGradient: 'from-[#FFF8F0] to-[#FCEEE2]',
     author: {
       name: 'Camille Laurent',
@@ -400,7 +400,7 @@ Melted butter coats flour starches instantly, inhibiting gluten formation and tr
     category: 'Sourdough & Bread',
     excerpt: 'Demystifying the wild fermentation lifecycle. From day 1 flour hydration to the triumphant float test on day 7, master microbial feeding rhythms.',
     coverImage: BAKING_IMAGES.sourdough,
-    coverImageAlt: 'Clear glass jar filled with active bubbly sourdough starter with wooden spoon and flour dust',
+    coverImageAlt: 'Clear glass jar filled with active bubbly sourdough starter with wooden spoon and flour dust by Julian Hayes · Rose & Crumb',
     fallbackGradient: 'from-[#FAF2EB] to-[#F5E5D5]',
     author: {
       name: 'Julian Hayes',
@@ -545,7 +545,7 @@ Never throw away your discard! Unfed sourdough discard contains developed lactic
     category: 'Baking Equipment',
     excerpt: 'Before buying that single-purpose cupcake corer or silicon pie crust shield, discover the indispensable tools that actually improve your bake quality.',
     coverImage: BAKING_IMAGES.hero,
-    coverImageAlt: 'Curated artisanal baking tools on marble workbench including French rolling pin and copper whisk',
+    coverImageAlt: 'Curated artisanal baking tools on marble workbench including French rolling pin and copper whisk by Camille Laurent · Rose & Crumb',
     fallbackGradient: 'from-[#FAF4F7] to-[#F5E6ED]',
     author: {
       name: 'Camille Laurent',
@@ -673,7 +673,7 @@ Baking is governed by physics and thermodynamics. An extra $20 spent on a heavy-
     category: 'Pastry & Pies',
     excerpt: 'Tired of tough, cardboard pie crusts? Learn how pea-sized butter chunks create steam pockets, why apple cider vinegar relaxes gluten, and blind-baking secrets.',
     coverImage: BAKING_IMAGES.pieCrust,
-    coverImageAlt: 'Golden artisanal lattice pie crust with flaky butter layers and marble rolling pin',
+    coverImageAlt: 'Golden artisanal lattice pie crust with flaky butter layers and marble rolling pin by Elena Vance · Rose & Crumb',
     fallbackGradient: 'from-[#FAF1E8] to-[#F5DFCD]',
     author: {
       name: 'Elena Vance',
@@ -799,7 +799,7 @@ To guarantee crispness:
     category: 'Decorating & Science',
     excerpt: 'At high altitudes, low atmospheric pressure causes gas bubbles to expand aggressively while liquids boil at lower temperatures. Learn the exact adjustment formula.',
     coverImage: BAKING_IMAGES.cakeFailures,
-    coverImageAlt: 'Delicate cake crumb and recipe notebooks illustrating scientific adjustments',
+    coverImageAlt: 'Delicate cake crumb and recipe notebooks illustrating scientific altitude adjustments by Camille Laurent · Rose & Crumb',
     fallbackGradient: 'from-[#F3F4F6] to-[#E5E7EB]',
     author: {
       name: 'Julian Hayes',
@@ -904,7 +904,7 @@ Two relentless physical forces govern high-altitude baking:
     category: 'Decorating & Science',
     excerpt: 'Macarons are notorious for finicky behavior. Compare the accessible French meringue technique against the ultra-stable Italian hot sugar syrup method.',
     coverImage: BAKING_IMAGES.macarons,
-    coverImageAlt: 'Pastel blush pink and ivory French macarons stacked on porcelain pedestal stand',
+    coverImageAlt: 'Pastel blush pink and ivory French macarons stacked on porcelain pedestal stand by Camille Laurent · Rose & Crumb',
     fallbackGradient: 'from-[#FDF2F4] to-[#FCE6EB]',
     author: {
       name: 'Camille Laurent',
@@ -1028,7 +1028,7 @@ A hot sugar syrup cooked to the soft-ball stage (244°F / 118°C) is drizzled in
     category: 'Pastry & Pies',
     excerpt: 'You do not need to wake up at 4:00 AM to enjoy warm croissants or fresh cookies. Discover the chilling and freezing science that preserves yeast viability.',
     coverImage: BAKING_IMAGES.hero,
-    coverImageAlt: 'Freshly baked pastries and prepared dough on marble worktop with linen napkins',
+    coverImageAlt: 'Freshly baked pastries and prepared dough on marble worktop with linen napkins by Camille Laurent · Rose & Crumb',
     fallbackGradient: 'from-[#FAF2F2] to-[#F5E1E1]',
     author: {
       name: 'Elena Vance',
@@ -1137,7 +1137,7 @@ Freezing water inside dough slows enzymatic action and suspends chemical activit
     category: 'Decorating & Science',
     excerpt: 'Ditch synthetic Red #40 and artificial vanillin. Discover how freeze-dried pitaya, butterfly pea flower, beetroot, and cold-pressed citrus oils create ethereal pastels.',
     coverImage: BAKING_IMAGES.macarons,
-    coverImageAlt: 'Delicate pastel tinted macarons and natural botanical baking extracts',
+    coverImageAlt: 'Delicate pastel tinted macarons and natural botanical baking extracts by Camille Laurent · Rose & Crumb',
     fallbackGradient: 'from-[#FAF4F8] to-[#F4E3EF]',
     author: {
       name: 'Camille Laurent',
